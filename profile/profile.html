@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Ylriad portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#music">Favorite music</a></li>
+                <li><a href="#contactform">Contact form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture" width="200" id="profile-pic">
+            <p>Hello! I'm Aliya from Kazakhstan. A beginner web-developer and just a good person. Born in 2006, April 8th.</p>
+            <h4>Personality traits:</h4>
+            <ul>
+                <li>Positivity</li>
+                <li>Intelligence</li>
+                <li>Kindness</li>
+                <li>Good sense of humor</li>
+            </ul>
+            <h4>Education</h4>
+            <ol>
+                <li>1st to 5th grade: School-lyceum №38 (2012-2017)</li>
+                <li>6th to 11th grade: Economic lyceum (2017-2023)</li>
+                <li>Currently on 3rd year of studying Compure science: Toraighyrov university (2023-2027)</li>
+            </ol>
+        </section>
+        <section id="projects">
+            <h2>My projects</h2>
+            <div class="container">
+                <div class="project" title="Maze">
+                    <h3>Maze</h3>
+                    <p>A web-page of a square moving in a maze.</p>
+                    <img src="maze.png" alt="Maze project" width="200">
+                    <a href="maze/maze.html" target="_blank">
+                        <button>View Project</button>
+                    </a>
+                </div>
+                <div class="project" title="User's profile">
+                    <h3>User's profile</h3>
+                    <p>An ajustable web-page of a user's profile.</p>
+                    <img src="uProfile.png" alt="Profile project" width="200">
+                    <a href="profile/uProfile.html" target="_blank">
+                        <button>View Project</button>
+                    </a>
+                </div>
+                <div class="project" title="Interaction">
+                    <h3>Interaction</h3>
+                    <p>A web-page with interactive elements.</p>
+                    <img src="interactive.png" alt="Interactive project" width="200">
+                    <a href="interactive/interactive.html" target="_blank">
+                        <button>View Project</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="music">
+            <h2>My favorite music</h2>
+            <table>
+                <tr>
+                    <th>Song</th>
+                    <th>Artist</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Daisy</td>
+                    <td>Ashnikko</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Gnarly</td>
+                    <td>KATSEYE</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Mamushi</td>
+                    <td>Megan Thee Stallion, Yuki Chiba</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Killin It Girl</td>
+                    <td>J-hope</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Young, Wild & Free</td>
+                    <td>Snoop Dogg, Wiz Khalifa, Bruno Mars</td>
+                    <td>2011</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contactform">
+            <h2>Contact me</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>  
+    </main>
+    <footer>
+        <p>&copy; 2024 Ylriad. All rights reserved.</p> 
+        <a href="https://www.instagram.com/ylriad/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+        <a href="https://github.com/ylriad" target="_blank" rel="noopener noreferrer">Github</a> |
+        <a href="https://t.me/ylriad" target="_blank" rel="noopener noreferrer">Telegram</a>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(-45deg, #ffd1dc, #ffe4ec, #f9c5d1, #ffe6f0);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #5e2c3e;
+  text-align: center;
+  padding: 30px;
+}
+
+#mainTitle {
+  color: #d63384;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #f8bbd0;
+  box-shadow: 0 4px 10px rgba(220, 110, 140, 0.3);
+}
+
+h2, p {
+  background-color: #fff0f5;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px 15px;
+  box-shadow: 0 2px 6px rgba(240, 128, 160, 0.2);
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e71272;
+}
+
+#inputField {
+  padding: 8px;
+  border: 2px solid #f8bbd0;
+  border-radius: 10px;
+  background-color: #fff0f5;
+  margin-top: 10px;
+}
+
+#outputText {
+  background-color: #fff0f5;
+  margin-top: 15px;
+  color: #a83e6c;
+  box-shadow: 0 2px 6px rgba(240, 128, 160, 0.2);
+  font-size: 18px;
+  display: inline-block;
+  max-width: 50vw;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  text-align: left;
+}
